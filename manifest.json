@@ -2,13 +2,12 @@
   "name": "F&S Inventory Manager",
   "short_name": "F&S Inventory",
   "description": "Inventory management system for F&S",
-  "start_url": "/",
-  "scope": "./",
+  "start_url": "./",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
-  "orientation": "portrait-primary",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "scope": "./",
   "lang": "en",
   "categories": ["business", "productivity"],
   "prefer_related_applications": false,
@@ -20,58 +19,16 @@
       "purpose": "any"
     },
     {
-      "src": "./icons/icon-384x384.png",
-      "sizes": "384x384",
+      "src": "./icons/icon-512x512.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "maskable_icon.png",
-      "sizes": "1068x1068",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "maskable_icon_x48.png",
-      "sizes": "48x48",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "maskable_icon_x72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "maskable_icon_x96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "maskable_icon_x128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "maskable_icon_x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "maskable_icon_x384.png",
+      "src": "./icons/icon-384x384.png",
       "sizes": "384x384",
       "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "maskable_icon_x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any"
     }
   ],
   "shortcuts": [
@@ -89,6 +46,7 @@
       ]
     }
   ],
+  "display_override": ["standalone", "minimal-ui"],
   "edge_side_panel": {
     "preferred_width": 400
   },
