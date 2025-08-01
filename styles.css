@@ -536,8 +536,7 @@ input::placeholder {
    overflow-x: auto;
    overflow-y: auto;
    max-height: auto;
-   min-height: 200px;
-   /* Ensure minimum height for better UX */
+   min-height: auto;
    border: 1px solid var(--border);
    position: relative;
 }
